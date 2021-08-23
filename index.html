@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="login1.css">
+        
+    </head>
+    <body>
+        <script src="login2.js"></script>
+
+        <form action="/pgm/signup/login.html" method="GET" class="form1" onsubmit="validateform()">
+
+          <!--heading-->
+          <h1 class="header1">LOGIN</h1><br><br>
+
+          <!--username,submit & password text field-->
+          <div class="log">
+          <input type="text" id="uid" name="uid" placeholder="Enter Username" title="Enter your username" maxlength="30"><br>
+          <input type="password" id="pswd" name="pswd" min="15" placeholder="Enter Password" title="Enter your password"><br>
+          <input type="submit" name="LOGIN"><br><br><br><br><br></div>
+
+          <!--link to registration form-->
+          New User? <a href="registration.html" title="signup for more!!">REGISTER</a>
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+
+/*defining body style*/
+body {
+    background-image: url(log5.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*form styles*/
+.form1 {
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    text-align: center;
+
+}
+
+.form1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.form1 ,.log{
+    color: white;
+
+}
+
+.form1 input[type="text"],.form1 input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid whitesmoke;
+    padding:10px 8px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.25px;
+}
+
+
+.form1 input[type="text"]:focus,.form1 input[type="password"]:focus{
+
+    width: 190px;
+    border-color: rgb(0, 0, 0);
+
+}
+
+
+.form1 input[type="submit"]{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    display:inline-table;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(0, 0, 0);
+    padding:14px 35px;
+    width: 150px;
+    outline: none;
+    color: rgb(255, 254, 254);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;
+
+}
+
+/*link for signup*/
+a:visited{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+
+
+
+  
